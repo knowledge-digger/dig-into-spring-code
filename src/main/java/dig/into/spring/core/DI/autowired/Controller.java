@@ -1,4 +1,4 @@
-package dig.into.spring.core.autowired;
+package dig.into.spring.core.DI.autowired;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

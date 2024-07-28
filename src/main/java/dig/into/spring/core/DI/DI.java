@@ -1,13 +1,13 @@
-package dig.into.spring.core;
+package dig.into.spring.core.DI;
 
 import java.util.List;
 
-import dig.into.spring.core.example.Bread;
-import dig.into.spring.core.example.Cheese;
-import dig.into.spring.core.example.ChiliSauce;
-import dig.into.spring.core.example.MozzarellaCheese;
-import dig.into.spring.core.example.Sauce;
-import dig.into.spring.core.example.WhiteBread;
+import dig.into.spring.core.DI.example.Bread;
+import dig.into.spring.core.DI.example.Cheese;
+import dig.into.spring.core.DI.example.ChiliSauce;
+import dig.into.spring.core.DI.example.MozzarellaCheese;
+import dig.into.spring.core.DI.example.Sauce;
+import dig.into.spring.core.DI.example.WhiteBread;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

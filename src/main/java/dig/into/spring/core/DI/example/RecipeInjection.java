@@ -1,4 +1,4 @@
-package dig.into.spring.core.example;
+package dig.into.spring.core.DI.example;
 
 import java.util.List;
 
