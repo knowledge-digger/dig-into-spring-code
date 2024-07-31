@@ -19,7 +19,6 @@ import lombok.Setter;
 @Entity
 @Table(name = "my_table")
 public class MyEntity {
-	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
