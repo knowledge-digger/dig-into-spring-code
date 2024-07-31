@@ -31,7 +31,7 @@ public class MyService {
         entity.setKorName("Updated korName");
         
         // 엔티티의 children 리스트에 접근 (지연 로딩이 발동)
-        // children 리스트가 실제로 필요할 때 데이터베이스에서 로딩됩니다.
+        // children 리스트가 실제로 필요할 때 데이터베이스에서 로딩됩니다. 
         for (ChildEntity child : entity.getChildren()) {}
 
         // 트랜잭션이 완료되면, 변경된 상태가 엔티티 매니저를 통해 데이터베이스에 저장합니다.
